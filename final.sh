@@ -3,7 +3,7 @@ command="prog -foo -whatever"
 log="prog.log"
 match="this is the what i want to match"
 
-sshd -p $ > "$log" 2>&1 &
+sshd -p 8097 > "$log" 2>&1 &
 pid=$!
 
 while sleep 60
