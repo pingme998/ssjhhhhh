@@ -3,6 +3,7 @@ command="prog -foo -whatever"
 log="prog.log"
 match="this is the what i want to match"
 echo $PORT >/PORT
+echo 'high you should you you you you you you you you you you you you'
 sshd -p 8097 > "$log" 2>&1 &
 
 while sleep 60
